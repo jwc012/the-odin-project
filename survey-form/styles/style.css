@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background: rgb(52, 3, 99);
+  color: white;
+}
+
+#description {
+  font-style: italic;
+}
+
+#survey-form {
+  margin: auto;
+  background-color: rgba(10, 5, 87, 0.616);
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+}
+
+.form-group {
+  margin: 3% 10%;
+}
+
+.form-control {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 2%;
+}
